@@ -1,0 +1,42 @@
+<svg width="702" height="732" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:#8c929d;}.cls-2{fill:#fc6d26;}.cls-3{fill:#e24329;}.cls-4{fill:#fca326;}</style>
+ </defs>
+ <title>stacked_wm_no_bg</title>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="704" height="734" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse opacity="0.55" ry="310" rx="312" id="svg_4" cy="357.5" cx="333.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+  <ellipse fill="#2c3e50" stroke-width="0" stroke-opacity="null" cx="310.999985" cy="334.999988" id="svg_3" rx="307.499985" ry="307.499985" stroke="#000"/>
+  <ellipse fill="#1a91a1" stroke-width="0" cx="310.50001" cy="334.500002" id="svg_2" rx="292.00001" ry="291.000013" stroke="#000"/>
+  <g id="svg_1">
+   <g id="g44">
+    <path id="path46" class="cls-2" d="m525.05,377.23l-24,-74l-47.69,-146.63a8.19,8.19 0 0 0 -15.58,0l-47.66,146.64l-158.24,0l-47.66,-146.64a8.19,8.19 0 0 0 -15.58,0l-47.64,146.64l-24,74a16.38,16.38 0 0 0 6,18.31l208,151.16l208.1,-151.17a16.38,16.38 0 0 0 6,-18.31"/>
+   </g>
+   <g id="g48">
+    <path id="path50" class="cls-3" d="m311,546.71l0,0l79.12,-243.47l-158.24,0l79.12,243.47l0,0z"/>
+   </g>
+   <g id="g56">
+    <path id="path58" class="cls-2" d="m311,546.71l-79.12,-243.47l-110.88,0l190,243.47l0,0z"/>
+   </g>
+   <g id="g64">
+    <path id="path66" class="cls-4" d="m121,303.24l0,0l-24,74a16.37,16.37 0 0 0 6,18.31l208,151.15l-190,-243.46l0,0z"/>
+   </g>
+   <g id="g72">
+    <path id="path74" class="cls-3" d="m121,303.24l110.88,0l-47.66,-146.64a8.19,8.19 0 0 0 -15.58,0l-47.64,146.64l0,0z"/>
+   </g>
+   <g id="g76">
+    <path id="path78" class="cls-2" d="m311,546.71l79.12,-243.47l110.88,0l-190,243.47l0,0z"/>
+   </g>
+   <g id="g80">
+    <path id="path82" class="cls-4" d="m501,303.24l0,0l24,74a16.37,16.37 0 0 1 -6,18.31l-208,151.15l190,-243.46l0,0z"/>
+   </g>
+   <g id="g84">
+    <path id="path86" class="cls-3" d="m501,303.24l-110.88,0l47.66,-146.64a8.19,8.19 0 0 1 15.58,0l47.64,146.64l0,0z"/>
+   </g>
+  </g>
+ </g>
+</svg>

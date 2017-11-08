@@ -1,0 +1,24 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.s2it.com.br/inner-sourcing/landing-page.git"
+  },
+  "author": "thomas santos",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor": "^5.2.0",
+    "protractor-cucumber-framework": "^4.1.1",
+    "webdriver-manager": "^12.0.6"
+  },
+  "dependencies": {
+    "cucumber": "^3.1.0",
+    "latest-version": "^3.1.0"
+  }
+}

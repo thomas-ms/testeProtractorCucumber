@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+       
+        <title>InnerSource</title>
+
+        <meta name="viewport" content="initial-scale=1">        
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+        <link rel="icon" href="images/favicon.png">
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <link rel="stylesheet" href="css/vendor/flickity.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.min.css">
+    </head>
+
+    <body data-spy="scroll" data-target="#menu-nav">
+        <div class="scrollToTop">
+                <img class="img-arrow" src="images/up-arrow.png" alt="scroll-up">
+        </div>
+
+        <div class="menu-button-div">
+            <!--<img src="images/icone-menu.svg" alt="Menu" onclick="openMenu()">-->
+            <div id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="fullscreen-menu" class="fullscreen-menu-div container-fluid animated">
+            <div class="row justify-content-center align-items-center" id="menu-nav">
+                <ul class="menu-list-group" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-header">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-oque-eh">O QUE É?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-acontecendo">ACONTECENDO</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-projetos">PROJETOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-back">
+            <header id="section-header" class="header-body">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <div class="row justify-content-center">
+                                <img class="header-image" src="images/logo-innerSource.svg" alt="Logo InnerSource">
+                                
+                                <img class="header-image inner-s2" src="images/logo-s2-innerSource.svg" alt="Logo S2IT">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <img class="header-image" src="images/logo-texto-innerSource.svg" alt="Texto InnerSource">
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <section class="section-what-is-it">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="image-pow animated tada" src="images/pow.svg" alt="Oque é InnerSource">
+                        <img class="image-ponta-balao" src="images/ponta-balao-amarelo.svg">
+                    </div>
+                    <div class="col-md-12 text-presentation">
+                        <h2>AFINAL, O QUE É <br>A INICIATIVA <font color=#4f200c>INNER</font>SOURCE?</h2>
+                        <h4>Teve alguma idéia legal e precisa de ajuda?</h4>
+                    </div>
+                </div> 
+                <br><br>
+                <div class="container flow-explanation" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12 text-title-what-is-it"><h3>O que é o<br>InnerSource?</h3></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 images-what-is-it">
+                                    <img class="img-fluid line-left" src="images/line.svg">
+                                    <img class="img-fluid flow" src="images/teamwork.svg" data-aos="flip-up">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-explanation-what-is-it">
+                                    <h5> É uma iniciativa dentro da S2IT para desenvolvimento colaborativo de software.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12 text-title-what-is-it"><h3>Quem pode<br>ajudar?</h3></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 images-what-is-it">
+                                    <img class="img-fluid line" src="images/line.svg">
+                                    <img class="img-fluid flow" src="images/teams2.svg"  data-aos="flip-up">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-explanation-what-is-it">
+                                    <h5>Qualquer colaborador da empresa! Não é necessário conhecimento técnico para ajudar nos projetos.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12 text-title-what-is-it"><h3>O que preciso para participar?</h3></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 images-what-is-it">
+                                    <img class="img-fluid line" src="images/line.svg">
+                                    <img class="img-fluid flow" src="images/juggling-ball.svg" data-aos="flip-up">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-explanation-what-is-it">
+                                    <h5>Tempo livre e vontade de colaborar.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-12 text-title-what-is-it"><h3>O que ganho<br />colaborando?</h3></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 images-what-is-it">
+                                    <img class="img-fluid line-right" src="images/line.svg">
+                                    <img class="img-fluid flow" src="images/trophy.svg" data-aos="flip-up">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-explanation-what-is-it">
+                                    <h5>Satisfação por desenvolver um projeto útil à comunidade enquanto desenvolve habilidades pessoais.</h5>
+                                </div>
+                            </div>
+                        </div>                                                
+                    </div>
+                </div>
+                <div class="col-md-12 text-want-to-help">
+                    <h2>GOSTOU E QUER AJUDAR?</h2>
+                    <h4>Há diversas formas de ajudar, seja dando uma mão nos projetos existentes ou compartilhando sua própria ideia!</h4>
+                </div>
+                <div class="container-fluid had-an-idea">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid image-what-is-it-big-icon" src="images/had-idea.svg" data-aos="zoom-in-right">
+                        </div>
+                        <div class="col-md-8" data-aos="zoom-in-left">
+                            <div class="row">
+                                <div class="col-md-12 text-had-an-idea"><h3>TIVE UMA IDEIA!</h3><h5 id="text-explanation-idea">Você pode postá-la no nosso mural de ideias ou criar um novo projeto e começar a desenvolvê-la.</h5></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-12"><img class="img-fluid image-what-is-it-actions" id="image-create-idea" src="images/create-idea.svg" data-toggle="modal" data-target="#modal-post-an-idea"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-what-is-it-actions" id="text-post-idea" data-toggle="modal" data-target="#modal-post-an-idea"></button><h5>Poste sua ideia no<br><font color=#ab312b>Mural de Ideias</font></h5></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" id="goToGit">
+                                    <div class="row">
+                                        <div class="col-md-12"><img class="img-fluid image-what-is-it-actions" id="image-gitlab" src="images/gitlab.svg"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-what-is-it-actions" id="text-create-project"><h5>Crie um novo projeto no<br><font color=#ab312b>GitLab</font></h5></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container liked-initiative">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-12 text-liked-initiative"><h3>CURTI A INICIATIVA!</h3><h5>Você pode ver os projetos que estão rolando ou as ideias que foram postadas.</h5></div>
+                            </div>
+                            <div class="row" data-aos="zoom-in-right">
+                                <div class="col-md-6" id="goToProjects">
+                                    <div class="row">   
+                                        <div class="col-md-12"><img class="img-fluid image-what-is-it-actions" id="image-project" src="images/projects.svg"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-what-is-it-actions" id="text-ongoing-project"><h5>Ver os projetos em andamento.</h5></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" id="goToIdeas">
+                                    <div class="row">
+                                        <div class="col-md-12"><img class="img-fluid image-what-is-it-actions" id="image-board" src="images/board.svg"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-what-is-it-actions" id="text-see-idea"><h5>Checar as ideias postadas.</h5></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-fluid image-what-is-it-big-icon" id="image-like" src="images/like.svg" data-aos="zoom-in-left">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal-post-an-idea" tabindex="-1" role="dialog" aria-labelledby="modal-projects-label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>  
+                            <div class="container-fluid modal-title" id="modal-projects-label">
+                                <h2></h2>
+                                <div class="row justify-content-center projects-tags">
+                                    <div class="modal-post-an-idea-header">Divulgue suas ideias</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="modal-body">
+                            <form method="POST" id="formIdeas" name="formPostAnIdea">
+                                <div class="row">
+                                    <div class="col-md-4" id="image-give-an-idea">
+                                        <div>
+                                            <img src="images/header-give-an-idea.svg">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8" id="info-post-an-idea">
+                                        <div class="form-group col-md-12" id="name-post-an-idea-form">
+                                            <label for="Nome" >Nome(<font style="color: red">*</font>)</label><br>
+                                            <input type="text" class="form-control  col-md-8" id="name-post-an-idea" placeholder="nome do colaborador">
+                                        </div>
+                                        <div class="form-group col-md-12" id="email-post-an-idea-form">
+                                            <label for="Nome" >E-mail(<font style="color: red">*</font>)</label><br>
+                                                <input type="text" class="form-control col-md-8" id="email-post-an-idea" placeholder="colaborador@s2it.com.br">
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="form-group" id="idea-post-an-idea-form">
+                                        <label for="idea">Sua ideia (<font style="color: red">*</font>)</label><br>
+                                        <textarea class="form-control col-md-10" rows="7" name="idea" id="idea-post-an-idea" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-9 col-xs-offset-3">
+                                            <div id="messages"></div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-success btn-lg col-md-8" id="button-post-an-idea">Postar</button>
+                                    
+                            </form>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </section>
+        <section id="section-acontecendo" class="section-acontecendo">
+            <div class="container" data-aos="zoom-in-up">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="img-boom animated tada" id="image-boom" src="images/boom.svg" alt="boom">
+                        <img class="img-balloon" src="images/ponta-balao-roxo.svg" alt="ponta-balao">
+                    </div>
+                </div>
+                <div class="text-acontecendo">
+                    <div class="row">
+                        <div class="col-md-12" id="ideas">
+                            <h2>O QUE DE FATO ESTÁ ACONTECENDO<br> NA INICIATIVA <span class="inner">INNER</span>SOURCE?</h2>
+                            <h4>Muita coisa legal rolando, participe, ajude!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="div-feed col-md-7">
+                        <h3>Confira as atividades: </h3>
+                        <div id="feed" class="list-group" data-spy="scroll" data-target=".navbar" data-offset="0" data-aos="fade-right"></div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="carousel-acontecendo">
+                            <h3>Mural de ideias: </h3>
+                            <div class="carousel" data-flickity='{ "pageDots":false, "contain": "true", "cellAlign": "left", "autoPlay": 5000 }' data-aos="fade-left"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-projetos" class="projetos">
+            <div class="container" data-aos="zoom-in-up">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="img-cool animated rubberBand" src="images/cool.svg">
+                        <img class="img-balao" src="images/ponta-balao-verde.svg">
+                    </div>
+                </div>
+                <div class="text-cool">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>QUAIS SÃO OS PROJETOS<br />DA INICATIVA <span>INNER</span>SOURCE?</h2>
+                            <h4>Teve alguma ideia legal e precisa de ajuda?</h4>
+                        </div>
+                    </div>
+                  
+                    <!-- <div class="row search-field">
+                        <div class="col-1">
+                            <img class="search-icon" src="images/001-search-1.svg" alt="">
+                        </div>
+
+                        <div class="col-11">
+                            <select class="ui fluid search dropdown" multiple="" id="dropdown-menu">
+                                <option value="">Buscar por nome do projeto, tags, etc...</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                            </select>  
+                        </div>  
+                    </div> -->
+                    
+                    <div class="carrossel-projetos">
+                        <div class="carousel" data-flickity='{ "pageDots":false }' data-aos="fade-up"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="modal-projects" tabindex="-1" role="dialog" aria-labelledby="modal-projects-label" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="container-fluid modal-title" id="modal-projects-label">
+                                <h2></h2>
+                                <!-- <div class="row justify-content-center projects-tags">
+                                    <div class="col-auto">urgente</div>
+                                    <div class="col-auto">css</div>
+                                    <div class="col-auto">java</div>
+                                    <div class="col-auto">mysql</div>
+                                    <div class="col-auto">novo</div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row justify-content-center">
+                                    <div class="col-11 description-box">Descrição:<h4></h4></div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-11 info-box">
+                                        <div class="row">
+                                            <div class="col-lg-5 col-sm-9 col-8">
+                                                Quem contribui: <span class="contribuidores"></span>
+                                            </div>
+                                        </div>
+                                        <div class="row contribuir">
+                                            <div class="col-12">
+                                                Contribuir: 
+                                                <button id="btn-gitlab" type="button" class="btn"><img class="img-git" src="images/gitlabicon.png"></button>
+                                                <button id="btn-ideia" type="button" class="btn"><img src="images/light-bulb.svg"></button>
+                                                
+                                                <div id="popover-content">
+                                                    <form id="needs-validation" novalidate>
+                                                        <input class="form-control" type="hidden" name="id-popover" id="id-popover">
+                                                        <label for="nome-popover">Nome:</label>
+                                                        <input class="form-control " type="text" name="nome-popover" id="nome-idea-popover" required>
+                                                        <div class="invalid-feedback email-validated">Ow, amigão. Me diga quem você é!</div>
+                                                        <label for="email-popover">Email:</label>
+                                                        <input class="form-control " type="text" name="email-popover" id="email-idea-popover" required>
+                                                        <div class="invalid-feedback email-validated">Por favor, digite seu e-mail</div>
+                                                        <label for="ideia-popover">Ideia:</label>
+                                                        <textarea class="form-control " name="idea-popover" id="textarea-idea" cols="30" rows="10" required></textarea>
+                                                        <div class="invalid-feedback">Não esqueça de deixar sua ideia :)</div>
+                                                        <button type="button" id="btn-idea-cancel" class="btn btn-danger">Cancelar</button> 
+                                                        <button type="button" id="btn-idea-submit" class="btn btn-outline-primary">Submeter ideia</button>
+                                                    </form>
+                                                </div>
+<!--***************************************************************************** TIRAR-->
+                                                <div id="popover-content-2">
+                                                    <form class="form" role="form">
+                                                        <div class="form-group" id="form-group-popover-2">
+                                                            <h3>Sua ideia foi submetida com sucesso!</h3>
+                                                            <button type="button" id="btn-idea-close-after" class="btn btn-primary">OK!</button>                                  
+                                                        </div>
+                                                    </form>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="justify-content-center">
+                                    <div class="feed-box">
+                                        <p>Últimas atualizações:</p>
+                                        <nav class="nav nav-tabs">
+                                            <a class="nav-link" id="home-tab" data-toggle="tab" href="#tab-idea" role="tab" aria-controls="home" aria-selected="true">Ideias</a>
+                                            <a class="nav-link" id="home-commits" data-toggle="tab" href="#tab-commits" role="tab" aria-controls="commits" aria-selected="true">Commits</a>
+                                        </nav>
+                                        <div class="tab-content" id="modal-tab-content">
+                                            <div class="tab-pane fade list-group feed-idea" id="tab-idea" role="tabpanel" aria-labelledby="home-tab"></div>
+                                            <div class="tab-pane fade list-group feed-commits" id="tab-commits" role="tabpanel" aria-labelledby="home-commits"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="body-footer">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 p-footer">©S2IT. Todos os direitos reservados.</div>
+                <div class="col-md-6 col-sm-12 links-footer">
+                    <img src="images/logo-rodape-fast.svg" class="img-footer">
+                    <a href="http://s2it.com.br/"><img src="images/logo-rodape-s2.svg" class="img-footer"></a>
+                    <img src="images/logo-rodape-itbox.svg" class="img-footer">
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script> 
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script src="js/vendor/flickity.pkgd.min.js"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.min.js"></script>
+        <script>
+                AOS.init();
+              </script>
+        
+        <script type="text/javascript">
+            $('#goToProjects').click(() => {
+                $('html, body').animate({
+                    scrollTop: $('#projects').offset().top
+                }, 1400);
+            });
+        </script>
+        <script type="text/javascript">
+            $('#goToIdeas').click(() => {
+                $('html, body').animate({
+                    scrollTop: $('#ideas').offset().top
+                }, 1400);
+            });
+        </script>
+       
+
+        <script type="text/javascript">
+            $('#goToGit').click(() => {
+                window.open('https://gitlab.com/users/sign_in');
+            });
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#button-post-an-idea").on('click', function(){
+                var data = {
+                        id: null,
+                        projectId: null,
+                        description: $("#idea-post-an-idea").val(),
+                        name: $("#name-post-an-idea").val(),
+                        email: $("#email-post-an-idea").val()
+                };
+                if(data.description=="" || data.name=="" || data.email==""){
+                    swal({
+                        position: 'center',
+                        type: 'error',
+                        title: 'Ops...Preencha os campos!',
+                        showConfirmButton: false,
+                        timer: 1500
+                      })
+                    return false;
+                }else{
+
+                    $.ajax({
+                        url: 'http://localhost:8080/ideas', 
+                        type : "POST",
+                        contentType: 'application/json',
+                        data : JSON.stringify(data),
+                        success : function(result) {
+                            swal({
+                        position: 'center',
+                        type: 'success',
+                        title: 'Ideia captada!',
+                        showConfirmButton: false,
+                        timer: 1500
+                      })
+                        $('#modal-post-an-idea').modal('hide');
+                        return true;
+                        }
+                    })
+                }
+            });
+        });
+        </script>
+    </body>
+</html>
